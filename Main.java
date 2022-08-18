@@ -92,6 +92,35 @@ public class Main {
      * System.out.println("The year is not a leap year");
      * }
      */
+    // Write a java program to input week number and print week day.
+
+    /*
+     * System.out.println("Enter your weak number");
+     * int num = sc.nextInt();
+     * if(num==1){
+     * System.out.println("Its sunday!");
+     * }
+     * else if(num==2){
+     * System.out.println("Its monday!");
+     * 
+     * }
+     * else if(num==3){
+     * System.out.println("Its tuesday!");
+     * 
+     * }
+     * else if(num==4){
+     * System.out.println("Its wednesday!");
+     * }
+     * else if(num==5){
+     * System.out.println("Its thrusday!");
+     * }
+     * else if(num==6){
+     * System.out.println("Its friday!");
+     * }
+     * else if(num==7){
+     * System.out.println("Its saturday!");
+     * }
+     */
 
   }
 }
