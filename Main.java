@@ -122,9 +122,8 @@ public class Main {
      * }
      */
 
-    //  lagta ha yah code nahi karega because hogya jitna karna tha
-    // hum  ab computer se hi github  pe bheg deta ha
-    
+    // lagta ha yaha code nahi karega because hogya jitna karna tha
+    // hum ab computer se hi github pe bheg deta ha
 
   }
 }
