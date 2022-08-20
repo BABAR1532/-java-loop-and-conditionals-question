@@ -125,5 +125,40 @@ public class Main {
     // lagta ha yaha code nahi karega because hogya jitna karna tha
     // hum ab computer se hi github pe bheg deta ha
 
+
+// Write a java program to input all sides of a triangle and check whether triangle is valid or not.
+
+  System.out.println("Enter the side of triangle:");
+    System.out.println("Enter side A");
+    int sidea = sc.nextInt();
+    System.out.println("Enter side B");
+    int sideb = sc.nextInt();
+    System.out.println("Enter side c");
+    int sidec = sc.nextInt();
+
+    if(sidea > sideb + sidec){
+
+      System.out.println("Its valid triangle!");
+    }
+
+    else if (sideb > sidea + sidec){
+
+      System.out.println("Its valid triangle!");
+    }
+
+    else if (sidec > sidea + sideb){
+
+      System.out.println("Its valid triangle!");
+      }
+    else if (sidea == sideb && sideb == sidec){
+
+      System.out.println("Its valid triangle!");
+    }
+     
+    else{
+
+      System.out.println("Triangle is invalid!");
+    }
+    
   }
 }
