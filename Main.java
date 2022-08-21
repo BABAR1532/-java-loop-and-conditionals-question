@@ -179,7 +179,7 @@ public class Main {
 
 // Write a java program to input any alphabet and check whether it is vowel or consonant.
 
-    System.out.println("Enter the alphabet please!");
+ /*   System.out.println("Enter the alphabet please!");
     char alpha = sc.next().charAt(0);
 
     if( alpha == 'a' || alpha == 'i' || alpha == 'e' || alpha == 'o' ||
@@ -192,9 +192,26 @@ public class Main {
     else{
 
     System.out.println("Its consonant!");
+    }   */
+
+//   Write a java program to input any character and check whether it is alphabet, digit or special character.  
+
+ /*   System.out.println("Enter the character please!");
+    char chart = sc.next().charAt(0);
+    
+    if(chart >= 'a' && chart <= 'z'  || chart >= 'A' && chart <= 'Z'){
+
+       System.out.println("Its alphabet!");
+    }
+    else if(chart >= '0' && chart <= '9'){
+
+      System.out.println("Its digit!");
     }
 
-    
+    else{
 
+      System.out.println("Its special character!");
+    }   */
+    
   }
 }
