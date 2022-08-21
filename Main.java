@@ -176,5 +176,25 @@ public class Main {
       System.out.println("Its is not a alphabet!");
     } */
 
+
+// Write a java program to input any alphabet and check whether it is vowel or consonant.
+
+    System.out.println("Enter the alphabet please!");
+    char alpha = sc.next().charAt(0);
+
+    if( alpha == 'a' || alpha == 'i' || alpha == 'e' || alpha == 'o' ||
+       alpha == 'u' || alpha == 'A' || alpha == 'I' || alpha == 'E' ||
+       alpha == 'O' || alpha == 'U' ){
+
+         System.out.println("Its vowel!");
+      
+       }
+    else{
+
+    System.out.println("Its consonant!");
+    }
+
+    
+
   }
 }
