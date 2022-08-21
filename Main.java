@@ -125,40 +125,56 @@ public class Main {
     // lagta ha yaha code nahi karega because hogya jitna karna tha
     // hum ab computer se hi github pe bheg deta ha
 
+    // Write a java program to input all sides of a triangle and check whether
+    // triangle is valid or not.
 
-// Write a java program to input all sides of a triangle and check whether triangle is valid or not.
+    /*
+     * System.out.println("Enter the side of triangle:");
+     * System.out.println("Enter side A");
+     * int sidea = sc.nextInt();
+     * System.out.println("Enter side B");
+     * int sideb = sc.nextInt();
+     * System.out.println("Enter side c");
+     * int sidec = sc.nextInt();
+     * 
+     * if(sidea < sideb + sidec){
+     * 
+     * System.out.println("Its valid triangle!");
+     * }
+     * 
+     * else if (sideb < sidea + sidec){
+     * 
+     * System.out.println("Its valid triangle!");
+     * }
+     * 
+     * else if (sidec < sidea + sideb){
+     * 
+     * System.out.println("Its valid triangle!");
+     * }
+     * else if (sidea == sideb && sideb == sidec){
+     * 
+     * System.out.println("Its valid triangle!");
+     * }
+     * 
+     * else{
+     * 
+     * System.out.println("Triangle is invalid!");
+     * }
+     */
 
-  System.out.println("Enter the side of triangle:");
-    System.out.println("Enter side A");
-    int sidea = sc.nextInt();
-    System.out.println("Enter side B");
-    int sideb = sc.nextInt();
-    System.out.println("Enter side c");
-    int sidec = sc.nextInt();
+    // Write a java program to check whether a character is alphabet or not.
 
-    if(sidea > sideb + sidec){
+   /* System.out.println("Enter your character:");
+    char alpha = sc.next().charAt(0);
 
-      System.out.println("Its valid triangle!");
-    }
+    if (alpha >= 'a' && alpha <= 'z' || alpha >= 'A' && alpha <= 'Z') {
 
-    else if (sideb > sidea + sidec){
+      System.out.println("Its alphabet!");
 
-      System.out.println("Its valid triangle!");
-    }
+    } else {
 
-    else if (sidec > sidea + sideb){
+      System.out.println("Its is not a alphabet!");
+    } */
 
-      System.out.println("Its valid triangle!");
-      }
-    else if (sidea == sideb && sideb == sidec){
-
-      System.out.println("Its valid triangle!");
-    }
-     
-    else{
-
-      System.out.println("Triangle is invalid!");
-    }
-    
   }
 }
