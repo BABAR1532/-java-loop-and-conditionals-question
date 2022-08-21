@@ -212,6 +212,22 @@ public class Main {
 
       System.out.println("Its special character!");
     }   */
+
+//  Write a java program to check whether a character is uppercase or lowercase alphabet. 
+
+ /*  System.out.println("Enter your alphabet:");
+    char alpha = sc.next().charAt(0);
+
+    if(alpha >= 'a' && alpha <= 'z'){
+
+      System.out.println("Its lowercase!");
+     
+    }
+
+    else{
+
+      System.out.println("Its uppercase!");
+    }  */
     
   }
 }
