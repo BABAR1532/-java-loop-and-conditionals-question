@@ -137,97 +137,93 @@ public class Main {
      * System.out.println("Enter side c");
      * int sidec = sc.nextInt();
      * 
-     * if(sidea < sideb + sidec){
+     * if((sideb + sidec) > sidea && (sidea + sidec) >
+     * sideb && (sidea + sideb) > sidec){
      * 
-     * System.out.println("Its valid triangle!");
+     * System.out.println("Triangle is valid!");
      * }
      * 
-     * else if (sideb < sidea + sidec){
-     * 
-     * System.out.println("Its valid triangle!");
+     * else{
+     * System.out.println("Triangle is invalid!");
      * }
      * 
-     * else if (sidec < sidea + sideb){
      * 
-     * System.out.println("Its valid triangle!");
+         Write a java program to check whether a character is alphabet or not.
+
+    /*
+     * System.out.println("Enter your character:");
+     * char alpha = sc.next().charAt(0);
+     * 
+     * if (alpha >= 'a' && alpha <= 'z' || alpha >= 'A' && alpha <= 'Z') {
+     * 
+     * System.out.println("Its alphabet!");
+     * 
+     * } else {
+     * 
+     * System.out.println("Its is not a alphabet!");
      * }
-     * else if (sidea == sideb && sideb == sidec){
+     */
+
+    // Write a java program to input any alphabet and check whether it is vowel or
+    // consonant.
+
+    /*
+     * System.out.println("Enter the alphabet please!");
+     * char alpha = sc.next().charAt(0);
      * 
-     * System.out.println("Its valid triangle!");
+     * if( alpha == 'a' || alpha == 'i' || alpha == 'e' || alpha == 'o' ||
+     * alpha == 'u' || alpha == 'A' || alpha == 'I' || alpha == 'E' ||
+     * alpha == 'O' || alpha == 'U' ){
+     * 
+     * System.out.println("Its vowel!");
+     * 
+     * }
+     * else{
+     * 
+     * System.out.println("Its consonant!");
+     * }
+     */
+
+    // Write a java program to input any character and check whether it is alphabet,
+    // digit or special character.
+
+    /*
+     * System.out.println("Enter the character please!");
+     * char chart = sc.next().charAt(0);
+     * 
+     * if(chart >= 'a' && chart <= 'z' || chart >= 'A' && chart <= 'Z'){
+     * 
+     * System.out.println("Its alphabet!");
+     * }
+     * else if(chart >= '0' && chart <= '9'){
+     * 
+     * System.out.println("Its digit!");
      * }
      * 
      * else{
      * 
-     * System.out.println("Triangle is invalid!");
+     * System.out.println("Its special character!");
      * }
      */
 
-    // Write a java program to check whether a character is alphabet or not.
+    // Write a java program to check whether a character is uppercase or lowercase
+    // alphabet.
 
-   /* System.out.println("Enter your character:");
-    char alpha = sc.next().charAt(0);
+    /*
+     * System.out.println("Enter your alphabet:");
+     * char alpha = sc.next().charAt(0);
+     * 
+     * if(alpha >= 'a' && alpha <= 'z'){
+     * 
+     * System.out.println("Its lowercase!");
+     * 
+     * }
+     * 
+     * else{
+     * 
+     * System.out.println("Its uppercase!");
+     * }
+     */
 
-    if (alpha >= 'a' && alpha <= 'z' || alpha >= 'A' && alpha <= 'Z') {
-
-      System.out.println("Its alphabet!");
-
-    } else {
-
-      System.out.println("Its is not a alphabet!");
-    } */
-
-
-// Write a java program to input any alphabet and check whether it is vowel or consonant.
-
- /*   System.out.println("Enter the alphabet please!");
-    char alpha = sc.next().charAt(0);
-
-    if( alpha == 'a' || alpha == 'i' || alpha == 'e' || alpha == 'o' ||
-       alpha == 'u' || alpha == 'A' || alpha == 'I' || alpha == 'E' ||
-       alpha == 'O' || alpha == 'U' ){
-
-         System.out.println("Its vowel!");
-      
-       }
-    else{
-
-    System.out.println("Its consonant!");
-    }   */
-
-//   Write a java program to input any character and check whether it is alphabet, digit or special character.  
-
- /*   System.out.println("Enter the character please!");
-    char chart = sc.next().charAt(0);
-    
-    if(chart >= 'a' && chart <= 'z'  || chart >= 'A' && chart <= 'Z'){
-
-       System.out.println("Its alphabet!");
-    }
-    else if(chart >= '0' && chart <= '9'){
-
-      System.out.println("Its digit!");
-    }
-
-    else{
-
-      System.out.println("Its special character!");
-    }   */
-
-//  Write a java program to check whether a character is uppercase or lowercase alphabet. 
-
- /*  System.out.println("Enter your alphabet:");
-    char alpha = sc.next().charAt(0);
-
-    if(alpha >= 'a' && alpha <= 'z'){
-
-      System.out.println("Its lowercase!");
-     
-    }
-
-    else{
-
-      System.out.println("Its uppercase!");
-    }  */
-    
   }
 }
